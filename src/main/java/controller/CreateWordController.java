@@ -13,7 +13,7 @@ import dao.DictionaryDAO;
 import domain.Word;
 import dto.DictionaryDTO;
 import service.CreateWordService;
-import valodation.Validation;
+import validation.Validation;
 
 @WebServlet("/CreateWord")
 public class CreateWordController extends HttpServlet {
@@ -139,3 +139,4 @@ public class CreateWordController extends HttpServlet {
 		}
 	}
 }
+
