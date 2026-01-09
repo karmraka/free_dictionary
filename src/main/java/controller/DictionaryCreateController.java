@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import domain.Dictionary;
 import service.DictionaryCreateService;
-import valodation.Validation;
+import validation.Validation;
 
 
 @WebServlet("/DictionaryCreateController")
@@ -65,3 +65,4 @@ public class DictionaryCreateController extends HttpServlet {
 	
 
 }
+
