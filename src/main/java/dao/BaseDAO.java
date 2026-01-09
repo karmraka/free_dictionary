@@ -8,7 +8,7 @@ public class BaseDAO {
 	
 	final String DB_URL = "jdbc:postgresql://localhost:5432/freedictionary";
 	final String DB_USER = "postgres";
-	final String DB_PASSWORD = "rerepipi";
+	final String DB_PASSWORD = "";
 	private Connection conn;
 	
 	public Connection getConnection () {
