@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import domain.User;
 import service.UserRegisterService;
-import valodation.Validation;
+import validation.Validation;
 
 
 @WebServlet("/register")
@@ -68,4 +68,5 @@ public class RegisterController extends HttpServlet {
 			rd.forward(request, response);
 		}
 	}
+
 }
