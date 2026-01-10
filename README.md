@@ -9,7 +9,6 @@
 * **PostgreSQL**
 
 ### 起動方法
-1. PostgreSQLにて、任意のデータベース(データベース名:freedictionary)を作成
-2. リポジトリ内の"free_dictionary/sql/schema.sql"を実行し、テーブルを作成
-3. "src/main/java/dao/BaseDAO.java"を開き"DB_URL" "DB_USER" "DB_PASSWORD"の内容をご自身のローカル環境の設定に変更
-4. "login.jsp"をsrc/main/webapp/jsp/login.jsp"をサーバーで実行
+1. PostgreSQLにて、リポジトリ内の"sql/schema.sql"を実行。データベースfreedictionaryと各テーブルが作成されます
+2. "src/main/java/dao/BaseDAO.java"を開き"DB_URL" "DB_USER" "DB_PASSWORD"の内容をご自身のローカル環境の設定に変更
+3. "src/main/webapp/jsp/login.jsp"をサーバーで実行
