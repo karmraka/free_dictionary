@@ -9,5 +9,6 @@
 * **PostgreSQL**
 
 ### 起動方法
-1. PostgreSQLにて、任意のデータベース(データベース名:freedictionary)を作成ください
-2. リポジトリ内の
+1. PostgreSQLにて、任意のデータベース(データベース名:freedictionary)を作成
+2. リポジトリ内の"free_dictionary/sql/schema.sql"を実行し、テーブルを作成
+3. 
